@@ -1,5 +1,5 @@
 
-# Analiza sa ponovljenim merenjem ---
+# Analiza eksperimentalnih podatka sa ponovljenim merenjima ---
 rm(list=ls())
 
 # izvor podataka:
