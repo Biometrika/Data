@@ -11,7 +11,6 @@ X <- runif(n, -1, 1)
 for(i in 1:rep){
 Y <- intercept + b1*X + rnorm(n, 0, 1)
 m <- lm(Y ~ X)
-vcv <- vcov(model)
 tabela[i, 1] <- m$coef[1]
 tabela[i, 2] <- m$coef[2]
 }
